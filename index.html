@@ -3,9 +3,9 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#090a0d">
-  <meta name="description" content="Fluffy Rusty — una criatura, mil horizontes. Un universo de atardeceres, noches urbanas y libertad.">
-  <title>Fluffy Rusty — The world is ours</title>
+  <meta name="theme-color" content="#080a0f">
+  <meta name="description" content="Fluffy Rusty — una criatura, mil horizontes. Explora su universo de noches urbanas, costas y libertad.">
+  <title>FLUFFY RUSTY — The world is ours</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -13,104 +13,60 @@
 </head>
 <body>
   <div class="grain" aria-hidden="true"></div>
-  <nav class="nav">
-    <a class="brand" href="#home" aria-label="Fluffy Rusty inicio"><span class="brand-dot"></span> FLUFFY RUSTY</a>
-    <div class="nav-links">
-      <a href="#story">Story</a><a href="#gallery">The world</a><a href="#token">Token</a>
-    </div>
-    <a class="nav-cta" href="#community">Join the crew <span>↗</span></a>
-    <button class="menu-toggle" aria-label="Abrir menú" aria-expanded="false">☰</button>
-  </nav>
+  <header class="nav">
+    <a class="logo" href="#home" aria-label="Fluffy Rusty, inicio"><span class="logo-dot"></span> FLUFFY RUSTY<span class="logo-period">.</span></a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="nav-links" aria-label="Abrir menú">☰</button>
+    <nav class="nav-links" id="nav-links">
+      <a href="#story">STORY</a><a href="#world">THE WORLD</a><a href="#token">TOKEN</a>
+    </nav>
+    <a class="nav-cta" href="#community">JOIN THE CREW <span>↗</span></a>
+  </header>
 
   <main>
-    <section class="hero" id="home">
-      <div class="hero-bg" role="img" aria-label="Fluffy Rusty contemplando una ciudad de noche"></div>
-      <div class="hero-shade"></div>
+    <section class="hero" id="home" aria-label="Fluffy Rusty en la ciudad por la noche">
+      <div class="hero-photo"></div><div class="hero-shade"></div><div class="hero-stars"></div>
       <div class="hero-content">
-        <p class="eyebrow"><span class="pulse"></span> A LITTLE WILD. A LITTLE RUSTY.</p>
-        <h1>FLUFFY<br><em>RUSTY.</em></h1>
-        <p class="hero-copy">The world is big.<br>Take the long way home.</p>
-        <div class="hero-actions">
-          <a class="button button-light" href="#story">Meet Fluffy <span>↓</span></a>
-          <a class="button button-ghost" href="#gallery">Explore the world</a>
-        </div>
+        <p class="eyebrow"><span class="eyebrow-dot"></span> AN INDEPENDENT SPIRIT / SOLANA UNIVERSE</p>
+        <h1>FLUFFY<br><em>RUSTY<span>.</span></em></h1>
+        <p class="hero-lede">The world is big.<br><strong>Take the long way home.</strong></p>
+        <div class="hero-actions"><a class="button button-light" href="#story">MEET FLUFFY <span>↓</span></a><a class="button button-outline" href="#world">EXPLORE THE WORLD</a></div>
       </div>
-      <div class="hero-foot"><span>INDEPENDENT SPIRIT CLUB</span><span>001 — EVERYWHERE</span></div>
-      <div class="hero-index">FR<br><span>01</span></div>
+      <div class="hero-side">A LITTLE WILD.<br>A LITTLE RUSTY.</div>
+      <div class="hero-bottom"><span>FIELD NOTES — 001</span><span>NO RUSH. NO MAP REQUIRED.</span><a href="#story">SCROLL TO EXPLORE ↓</a></div>
     </section>
 
-    <section class="intro section" id="story">
-      <div class="section-tag"><span>01</span> / THE STORY</div>
-      <div class="intro-grid">
-        <h2>Not lost.<br><span>Just wandering.</span></h2>
-        <div class="intro-text">
-          <p>Meet Fluffy Rusty — a little red creature with a big world to discover. From quiet coastlines to rooftops above the city, he goes wherever the feeling takes him.</p>
-          <p>No rush. No map required. Just good views, late nights, and the freedom to find your own way.</p>
-          <a class="text-link" href="#gallery">See where he goes <span>↗</span></a>
-        </div>
+    <section class="story section" id="story">
+      <div class="section-kicker"><span>01</span> / THE STORY</div>
+      <div class="story-grid">
+        <div class="story-title"><p class="eyebrow">MEET THE LITTLE GUY</p><h2>Not lost.<br><em>Just wandering.</em></h2></div>
+        <div class="story-copy"><p>Meet Fluffy Rusty — a little red creature with a big world to discover. From quiet coastlines to rooftops above the city, he goes wherever the feeling takes him.</p><p>No rush. No map required. Just good views, late nights, and the freedom to find your own way.</p><div class="quote">“The world is ours.”</div></div>
       </div>
-      <div class="stats-strip">
-        <div><span class="stat-num">∞</span><span class="stat-label">PLACES TO GO</span></div>
-        <div><span class="stat-num">1</span><span class="stat-label">ORIGINAL LITTLE GUY</span></div>
-        <div><span class="stat-num">0</span><span class="stat-label">REASONS TO RUSH</span></div>
-      </div>
+      <div class="stats-strip"><div><b>∞</b><span>PLACES TO GO</span></div><div><b>01</b><span>ORIGINAL LITTLE GUY</span></div><div><b>0</b><span>REASONS TO RUSH</span></div></div>
     </section>
 
-    <section class="gallery section" id="gallery">
-      <div class="gallery-heading">
-        <div><div class="section-tag"><span>02</span> / FIELD NOTES</div><h2>Somewhere<br><span>out there.</span></h2></div>
-        <p>Four moments. One curious soul.<br>More stories coming soon.</p>
-      </div>
+    <section class="world section" id="world">
+      <div class="world-heading"><div><div class="section-kicker"><span>02</span> / FIELD NOTES</div><h2>Somewhere<br><em>out there.</em></h2></div><p>Four moments.<br>One curious soul.<br>Infinite places to go.</p></div>
       <div class="gallery-grid">
-        <article class="gallery-card card-large">
-          <img src="assets/fluffy-rusty-coast.webp" alt="Fluffy Rusty en un mirador costero al atardecer" loading="lazy">
-          <div class="image-overlay"></div><div class="card-meta"><span>01 / THE COAST</span><span>Golden hour</span></div>
-        </article>
-        <article class="gallery-card">
-          <img src="assets/fluffy-rusty-meadow.webp" alt="Fluffy Rusty descansando en una pradera con flores" loading="lazy">
-          <div class="image-overlay"></div><div class="card-meta"><span>02 / SLOW DAYS</span><span>Take it easy</span></div>
-        </article>
-        <article class="gallery-card">
-          <img src="assets/fluffy-rusty-city-night.webp" alt="Fluffy Rusty observando las luces de la ciudad por la noche" loading="lazy">
-          <div class="image-overlay"></div><div class="card-meta"><span>03 / AFTER DARK</span><span>City lights</span></div>
-        </article>
-        <article class="gallery-card card-wide">
-          <img src="assets/fluffy-rusty-sea-sunset.webp" alt="Fluffy Rusty sentado junto al mar durante el atardecer" loading="lazy">
-          <div class="image-overlay"></div><div class="card-meta"><span>04 / NO DESTINATION</span><span>Just the horizon</span></div>
-        </article>
+        <article class="gallery-card card-coast"><img src="assets/fluffy-rusty-coast.webp" alt="Fluffy Rusty contempla la costa al atardecer" loading="lazy"><div class="card-shade"></div><div class="card-label"><span>01 / THE COAST</span><b>Golden hour</b></div></article>
+        <article class="gallery-card card-meadow"><img src="assets/fluffy-rusty-meadow.webp" alt="Fluffy Rusty descansa en una pradera de flores" loading="lazy"><div class="card-shade"></div><div class="card-label"><span>02 / SLOW DAYS</span><b>Take it easy</b></div></article>
+        <article class="gallery-card card-city"><img src="assets/fluffy-rusty-city-night.webp" alt="Fluffy Rusty mira las luces de la ciudad de noche" loading="lazy"><div class="card-shade"></div><div class="card-label"><span>03 / AFTER DARK</span><b>City lights</b></div></article>
+        <article class="gallery-card card-sea"><img src="assets/fluffy-rusty-sea-sunset.webp" alt="Fluffy Rusty sentado junto al mar durante el atardecer" loading="lazy"><div class="card-shade"></div><div class="card-label"><span>04 / NO DESTINATION</span><b>Just the horizon</b></div></article>
       </div>
     </section>
 
-    <section class="quote-band">
-      <span class="quote-mark">“</span>
-      <p>Somewhere between<br>the sunset and the stars.</p>
-      <span class="quote-by">— FLUFFY RUSTY</span>
-    </section>
+    <section class="manifesto"><div class="manifesto-image"></div><div class="manifesto-shade"></div><div class="manifesto-copy"><span>NO HYPE.</span><strong>JUST FLUFF.</strong><p>Somewhere between the sunset and the stars.</p></div></section>
 
     <section class="token section" id="token">
-      <div class="section-tag"><span>03</span> / THE TOKEN</div>
-      <div class="token-grid">
-        <div><p class="eyebrow">THE ON-CHAIN CHAPTER</p><h2>A small creature.<br><span>A whole community.</span></h2><p class="token-copy">Fluffy Rusty is building its corner of the internet. Follow the journey, meet the crew, and stay curious.</p><div class="chain-pill"><span class="solana-mark">◎</span> BUILT FOR SOLANA</div></div>
-        <div class="token-panel">
-          <div class="token-panel-top"><span>PROJECT DETAILS</span><span class="live-dot"></span></div>
-          <div class="token-row"><span>Project</span><strong>Fluffy Rusty</strong></div>
-          <div class="token-row"><span>Token ticker</span><strong>$FLUFFY <button class="copy-btn" id="copyTicker" type="button">COPY</button></strong></div>
-          <div class="token-row"><span>Network</span><strong>Solana</strong></div>
-          <div class="token-row"><span>Total supply</span><strong>1,000,000,000</strong></div>
-          <div class="token-row"><span>Mint address</span><strong class="mint" id="mintAddress">ADD_YOUR_MINT_ADDRESS</strong></div>
-          <button class="button button-light copy-mint" id="copyMint" type="button">Copy mint address <span>↗</span></button>
-          <p class="panel-note">Token information is a placeholder until the official mint address is added. This page does not promise returns.</p>
-        </div>
+      <div class="section-kicker"><span>03</span> / THE ON-CHAIN CHAPTER</div>
+      <div class="token-grid"><div class="token-intro"><p class="eyebrow">BUILT FOR THE JOURNEY</p><h2>A small creature.<br><em>A whole community.</em></h2><p>Fluffy Rusty is building its corner of the internet. Follow the journey, meet the crew, and stay curious.</p><div class="network-pill"><span>◎</span> SOLANA ECOSYSTEM</div></div>
+        <div class="token-panel"><div class="panel-head"><span>PROJECT DETAILS</span><span class="status-dot"></span></div><div class="token-row"><span>Project</span><b>Fluffy Rusty</b></div><div class="token-row"><span>Ticker</span><b>$FLUFFY <button id="copyTicker" class="copy-inline" type="button">COPY</button></b></div><div class="token-row"><span>Network</span><b>Solana</b></div><div class="token-row"><span>Total supply</span><b>To be confirmed</b></div><div class="token-row token-row-mint"><span>Mint address</span><code id="mintAddress">ADD_OFFICIAL_MINT_ADDRESS</code></div><button class="button button-light copy-mint" id="copyMint" type="button">COPY MINT ADDRESS <span>↗</span></button><p class="panel-note">Token details are placeholders until official information is confirmed. This page does not promise returns.</p></div>
       </div>
     </section>
 
-    <section class="community" id="community">
-      <div class="community-art"></div>
-      <div class="community-content"><p class="eyebrow">THE JOURNEY IS BETTER TOGETHER</p><h2>Come along<br><em>for the ride.</em></h2><p>Follow Fluffy Rusty's next chapter.</p><div class="socials"><a href="#" class="social-link" data-social="x">X / TWITTER ↗</a><a href="#" class="social-link" data-social="telegram">TELEGRAM ↗</a><a href="#" class="social-link" data-social="dex">DEXSCREENER ↗</a></div><p class="edit-note">Social links are placeholders — add your official profiles in <code>index.html</code>.</p></div>
-    </section>
+    <section class="community" id="community"><div class="community-photo"></div><div class="community-shade"></div><div class="community-content"><p class="eyebrow">THE JOURNEY IS BETTER TOGETHER</p><h2>Come along<br><em>for the ride.</em></h2><p>Follow Fluffy Rusty's next chapter.</p><div class="social-links"><span>X / TWITTER — ADD LINK</span><span>TELEGRAM — ADD LINK</span><span>DEXSCREENER — ADD LINK</span></div><small>Official social and market links will be added here when available.</small></div></section>
   </main>
 
-  <footer class="footer"><a class="brand" href="#home"><span class="brand-dot"></span> FLUFFY RUSTY</a><span>MADE FOR THE LONG WAY HOME.</span><a href="#home">BACK TO TOP ↑</a><small>© <span id="year"></span> FLUFFY RUSTY. A community project.</small></footer>
+  <footer class="footer"><a class="logo" href="#home"><span class="logo-dot"></span> FLUFFY RUSTY<span class="logo-period">.</span></a><span>MADE FOR THE LONG WAY HOME.</span><a href="#home">BACK TO TOP ↑</a><small>© <span id="year"></span> FLUFFY RUSTY. A community project.</small></footer>
   <div class="toast" id="toast" role="status" aria-live="polite"></div>
   <script src="script.js"></script>
 </body>
