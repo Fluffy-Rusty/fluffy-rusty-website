@@ -311,4 +311,17 @@
   visibility: visible !important;
   opacity: 1 !important;
 }
+/* FINAL HERO ANIMATION FIX */
+.hero-content,
+.hero-content .eyebrow,
+.hero-content h1,
+.hero-content .hero-copy,
+.hero-content .hero-actions,
+.hero-content .button {
+  animation: none !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+  transform: none !important;
+}
+
 
