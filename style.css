@@ -287,3 +287,28 @@
     transition-duration: 0.01ms !important;
   }
 }
+/* FIX FLUFFY RUSTY HERO */
+.hero-content {
+  position: relative !important;
+  z-index: 5 !important;
+  display: block !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+  max-width: 820px;
+}
+
+.hero h1 {
+  display: block !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+  color: #f4f1e9 !important;
+}
+
+.hero-copy,
+.hero-actions,
+.hero-content .eyebrow {
+  display: block;
+  visibility: visible !important;
+  opacity: 1 !important;
+}
+
